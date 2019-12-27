@@ -1,0 +1,21 @@
+INSERT INTO `tbl_user` (`ID`, `NAME`, `GENDER`, `AGE`) VALUES ('3', 'Papia', 'F', '16');
+INSERT INTO `tbl_user` VALUES ('3', 'Papia', 'F', '16');
+
+
+UPDATE `tbl_user` SET `NAME` = 'NAVID', `GENDER` = 'M', `AGE` = '100' WHERE (`ID` = '4');
+
+UPDATE tbl_user set name =" paru" WHERE( id =10);
+
+SELECT DISTINCT name FROm TBL_USER;
+
+
+DELETE FROM TBL_USER WHERE ID = 10;
+
+SELECT * FROM tbl_user where name = "Alam1" or age = 20;
+
+SELECT * FROM table_name;
+
+SELECT * FROM Customers
+WHERE Country='Mexico';
+
+UPDATE `practice1`.`tbl_user` SET `GENDER` = 'NULL' WHERE (`ID` = '1');
